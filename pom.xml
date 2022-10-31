@@ -21,6 +21,7 @@
   
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <finalName>cen4802-assignment-7</finalName>
     <resources>
       <resource>
         <directory>src</directory>
