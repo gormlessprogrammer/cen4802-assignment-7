@@ -31,8 +31,8 @@ class SpellCheckerTest {
 		}
 		if (new File("src/testStates.txt").exists()) {
 			System.out.println("Deleting src/testStates.txt for science...");
-			File dictionary = new File("src/testStates.txt");
-			dictionary.delete();
+			File testState = new File("src/testStates.txt");
+			testState.delete();
 			System.out.println("testStates has been deleted!!!");
 		}
 		
