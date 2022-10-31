@@ -1,5 +1,5 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/docker-lilly-assignment-seven.jar docker-lilly-assignment-seven.jar
-ENTRYPOINT ["java", "-jar","docker-lilly-assignment-seven.jar"]
+ADD target/cen4802-assignment-7.jar cen4802-assignment-7.jar
+ENTRYPOINT ["java", "-jar","cen4802-assignment-7.jar"]
 
