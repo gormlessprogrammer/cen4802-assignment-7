@@ -153,6 +153,8 @@ public class Lilly_Spellchecker {
 		newDictionary.add("Delaware");
 		newDictionary.add("Florida");
 		newDictionary.add("Georgia");
+		newDictionary.add("New York");
+
 		
 		ArrayList<String> newTestState = new ArrayList<>();
 		newTestState.add("labama1");
@@ -165,7 +167,8 @@ public class Lilly_Spellchecker {
 		newTestState.add("Delaware");
 		newTestState.add("Florida");
 		newTestState.add("Georgia");
-		
+		newTestState.add("York New");
+
 		
 		try { 
 			PrintWriter dm = new PrintWriter("src/dictionary.txt");
